@@ -59,6 +59,7 @@ Network isolates are assigned a value of \eqn{(1 - alpha) / (n\_columns)} or \eq
 Created by Deng, Lyo, and Kind (2009) \doi{10.1145/1557019.1557051}, CoHITS was developed explicitly for use in bipartite graphs as a way to better-incorporate content information (the "Co" in CoHITS) in HITS ranks. Like HITS, CoHITS is based on a markov process for simultaneously estimating ranks across each mode of the input data. CoHITS primarily differs from HITS in that it normalizes the transition matrix by the out-degree of the source nodes, leading to an interpretation more similar to that of a random walk.
 }
 \examples{
+library(data.table)
 #create edge list between patients and providers
     df <- data.table(
       patient_id = sample(x = 1:10000, size = 10000, replace = TRUE),

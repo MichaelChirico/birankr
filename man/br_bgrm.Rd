@@ -59,6 +59,7 @@ Network isolates are assigned a value of \eqn{(1 - alpha) / (n\_columns)} or \eq
 Created by Rui et. al (2007) \doi{10.1145/1291233.1291378}, BGRM (Bipartite Graph Reinforcement Model) was developed explicitly for use in bipartite graphs. Like every bipartite ranking algorithm in this package, BGRM simultaneously estimates ranks across each mode of the input data. BGRM primarily differs from CoHITS and HITS by symmetrically normalizing the transition matrix, both by the out-degree of the source node and the indegree of the target node.
 }
 \examples{
+library(data.table)
 #create edge list between patients and providers
     df <- data.table(
       patient_id = sample(x = 1:10000, size = 10000, replace = TRUE),
