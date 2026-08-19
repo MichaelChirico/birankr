@@ -1,8 +1,0 @@
-bipartite_rank	bipartite_rank
-br_birank	br_birank
-br_hits	br_hits
-pagerank	pagerank
-project_to_one_mode	project_to_one_mode
-sparsematrix_from_edgelist	sparsematrix_from_edgelist
-sparsematrix_from_matrix	sparsematrix_from_matrix
-sparsematrix_rm_weights	sparsematrix_rm_weights
